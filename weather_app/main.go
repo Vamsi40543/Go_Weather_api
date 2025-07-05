@@ -10,9 +10,8 @@ import (
 func main() {
 
 	config.LoadConfig(".apiconfig")
-
 	database.Connect()
-	database.Migrate()
+
 	r := gin.New()
 	r.Use(gin.Recovery())
 	r.Use(config.LoggerMiddleware())

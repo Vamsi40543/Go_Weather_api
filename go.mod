@@ -1,4 +1,4 @@
-module github.com/Vamsi40543/Go_Weather_api/weather_app
+module github.com/Vamsi40543/Go_Weather_api
 
 go 1.23.4
 
