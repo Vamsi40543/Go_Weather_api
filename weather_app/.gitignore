@@ -1,0 +1,10 @@
+# Ignore secrets and local data
+weather.db
+debug.log
+*.log
+*.env
+.apiconfig
+
+# VSCode & OS files
+.vscode/
+.DS_Store
